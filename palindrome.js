@@ -9,9 +9,9 @@ function isPalindrome () {
   }
 
   if (res === nstr) {
-    document.getElementById("result").innerHTML = "It's palindrome";
+    document.getElementById("result").innerHTML = " Yes, It's palindrome";
   } else {
-    document.getElementById("result").innerHTML = "It isn't palindrome";
+    document.getElementById("result").innerHTML = " No, It isn't palindrome";
   }
 
   
